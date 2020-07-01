@@ -1,0 +1,141 @@
+body {
+    margin: 0;
+    font-family: 'poppins', sans-serif;
+}
+
+.clear {
+    overflow: hidden;
+}
+
+h1 {
+    font-size: 25px;
+}
+
+p {
+    color: gray;
+}
+
+section {
+    height: 500px;
+    padding-bottom: 100px;
+}
+
+.text-color {
+    color: rgb(235, 60, 110);
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.half-width {
+    width: 40%;
+    float: left;
+    margin-top: 200px;
+    margin-left: 120px;
+}
+
+.half-width img {
+    width: 100%;
+    margin-left: -110px;
+    margin-top: -103px;
+}
+
+.link-button {
+    color: white;
+    background-image: linear-gradient(45deg, rgb(235, 60, 110), red);
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-top: 15px;
+    display: inline-block;
+}
+
+.top-banner {
+    background-image: url("image/header-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.middle-banner {
+    background-image: url("image/biography-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.latest-work {
+    margin-left: 100px;
+    background-image: url("image/latest-work-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 400px;
+}
+
+.latest-work-img-size {
+    width: 29%;
+    height: 200px;
+    float: left;
+    padding-right: 32px;
+}
+
+.alignment {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.first-img {
+    margin-top: 36px;
+}
+
+.second-img {
+    margin-top: 18px;
+}
+
+.single-experience {
+    box-shadow: 10px 10px 30px gray;
+    border-radius: 5px;
+    background-color: white;
+}
+
+#full-stack {
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, red, orange);
+    border-image-slice: 1;
+    margin-top: 65px;
+}
+
+#baby-stack {
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, cyan, blue);
+    border-image-slice: 1;
+    /* margin-bottom: 4px; */
+    height: 211px;
+    margin-top: 65px;
+}
+
+.contact {
+    text-align: center;
+    background-image: url("image/footer-bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 400px;
+}
+
+.client {
+    margin-bottom: 65px;
+}
+
+.founder {
+    margin-bottom: 45px;
+}
+
+.contact-button {
+    color: white;
+    background-image: linear-gradient(45deg, rgb(235, 60, 110), red);
+    padding: 25px 50px;
+    text-decoration: none;
+    margin-top: 15px;
+    display: inline-block;
+}
+
+.footer p {
+    text-align: center;
+    font-size: 15px;
+}
